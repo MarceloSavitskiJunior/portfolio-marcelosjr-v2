@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
 
+
+$cor-background: #313131;
+$cor-principal:#0E9FE9;
+
+
 body {
     font-family: 'JetBrains Mono';
+    background-color: $cor-background;
 }

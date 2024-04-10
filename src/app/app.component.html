@@ -1,5 +1,5 @@
 <router-outlet>
 <app-welcome-screen [showWelcomeScreen]="showWelcomeScreen"></app-welcome-screen>    
-<div [ngClass]="showContent ? '' : 'hidden'">
+<div [ngClass]="!showContent ? 'hidden' : ''">
     <app-home></app-home>
 </div>
